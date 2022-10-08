@@ -11,7 +11,7 @@ class SymetryIconBtnsDefault {
  * 標題：Props預設值不可直接使用矩陣
  * 
  * 敘述：如標題說明，此性質導致由class直接產生的預設值實例，若含有矩陣預設值，填入withDefaults的default會報錯。
- * 因此，雖然純ts有漂亮的預設值與型別解決方案（參考//TODO），遇到Vue3還是只能用Vue3的標準玩法（以函數的方式返回array）。
+ * 　　　因此，雖然純ts有漂亮的預設值與型別解決方案（參考//TODO），遇到Vue3還是只能用Vue3的標準玩法（以函數的方式返回array）。
  * 
  * 參考：
  * https://vuejs.org/api/sfc-script-setup.html#default-props-values-when-using-type-declaration
